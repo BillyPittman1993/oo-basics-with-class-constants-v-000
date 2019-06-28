@@ -1,6 +1,6 @@
 class Shoe 
   
-  attr_reader :name, :brands
+  attr_reader :name, :brand
   
   BRANDS = []
   
@@ -8,8 +8,8 @@ class Shoe
     @name = name
   end
   
-  def brands=(brands)
-    @brands = brands
-    BRANDS << brands.uniq 
+  def brands=(brand)
+    @brand = brand
+    BRANDS << brand.uniq 
   end
 end
