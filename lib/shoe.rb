@@ -8,4 +8,8 @@ class Shoe
     @brand = brand
     BRANDS << brand
   end
+  
+  brand.each do |brand| 
+    if brand.uniq? 
+  
 end
